@@ -60,3 +60,12 @@
 
 [init]
   defaultBranch = master
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[user]
+	email = a.zykaj1999@gmail.com
+	name = anea zykaj

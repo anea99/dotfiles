@@ -88,3 +88,9 @@ fi
 
 # Hook direnv but only if direnv is installed
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
+
+. "$HOME/.local/bin/env"
+
+export PYTHONPATH="/Users/aneazykaj/code/lewagon/data/03-Decision-Science:$PYTHONPATH"
+export PYTHONPATH="/Users/aneazykaj/code/lewagon/03-Decision-Science:$PYTHONPATH"
+export PYTHONPATH="/Users/aneazykaj/code/anea99/data/03-Decision-Science:$PYTHONPATH"
